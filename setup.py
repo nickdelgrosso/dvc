@@ -11,7 +11,7 @@ from setuptools.command.build_py import build_py as _build_py
 try:
     import fastentrypoints  # noqa: F401
 except ImportError:
-    pass # FIXME only for pre-commit tests
+    pass  # FIXME only for pre-commit tests
 
 
 # Read package meta-data from version.py
