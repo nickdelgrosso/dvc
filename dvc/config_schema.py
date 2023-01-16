@@ -184,6 +184,7 @@ SCHEMA = {
                     "ask_password": Bool,
                     "passphrase": str,
                     "ask_passphrase": Bool,
+                    "ask_user": Bool,
                     "keyfile": str,
                     "timeout": Coerce(int),
                     "gss_auth": Bool,
